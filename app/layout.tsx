@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(inter.className, ibmPlex.className)}>{children}</body>
-    </html>
+      <body className={`${inter.className} ${ibmPlex.className} `}>{children}</body>
+    </html >
   );
 }
